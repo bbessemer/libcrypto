@@ -1,0 +1,19 @@
+<html>
+<head>
+	<script src="base64.js"></script>
+	<script src="jsbn.js"></script>
+	<script src="jsbn2.js"></script>
+	<script src="prng4.js"></script>
+	<script src="rng.js"></script>
+	<script src="rsa.js"></script>
+	<script>
+		function time (func) {
+			t_i = performance.now();
+			console.log(func());
+			t_f = performance.now();
+			return (t_f - t_i) + " ms";
+		}
+	</script>
+</head>
+<body></body>
+</html>
